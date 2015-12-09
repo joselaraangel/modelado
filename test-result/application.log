@@ -1,0 +1,26 @@
+09 dic 2015 11:41:15,261 INFO  ~ Starting C:\Users\Invitado\Desktop\yabe
+09 dic 2015 11:41:16,685 ERROR ~ There was a problem parsing dependencies.yml (module will not be loaded in order of the dependencies.yml)
+09 dic 2015 11:41:16,713 INFO  ~ Module crud is available (C:\play1-1.3.0\modules\crud)
+09 dic 2015 11:41:16,715 INFO  ~ Module lib is available (C:\Users\Invitado\Desktop\yabe\modules\lib)
+09 dic 2015 11:41:16,719 INFO  ~ Module secure is available (C:\play1-1.3.0\modules\secure)
+09 dic 2015 11:41:20,629 WARN  ~ You're running Play! in DEV mode
+09 dic 2015 11:41:21,007 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+09 dic 2015 11:41:48,385 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL for default
+09 dic 2015 11:41:54,103 ERROR ~ HHH000389: Unsuccessful: alter table Comment drop constraint FK_apirq8ka64iidc18f3k6x5tc5
+09 dic 2015 11:41:54,104 ERROR ~ Tabla "COMMENT" no encontrada
+Table "COMMENT" not found; SQL statement:
+alter table Comment drop constraint FK_apirq8ka64iidc18f3k6x5tc5 [42102-176]
+09 dic 2015 11:41:54,106 ERROR ~ HHH000389: Unsuccessful: alter table Post drop constraint FK_m7j5gwmpa7dklv5bnc41ertmi
+09 dic 2015 11:41:54,107 ERROR ~ Tabla "POST" no encontrada
+Table "POST" not found; SQL statement:
+alter table Post drop constraint FK_m7j5gwmpa7dklv5bnc41ertmi [42102-176]
+09 dic 2015 11:41:54,108 ERROR ~ HHH000389: Unsuccessful: alter table Post_Tag drop constraint FK_t0ml4xx4nhnqjwrhxugwlvrpm
+09 dic 2015 11:41:54,109 ERROR ~ Tabla "POST_TAG" no encontrada
+Table "POST_TAG" not found; SQL statement:
+alter table Post_Tag drop constraint FK_t0ml4xx4nhnqjwrhxugwlvrpm [42102-176]
+09 dic 2015 11:41:54,112 ERROR ~ HHH000389: Unsuccessful: alter table Post_Tag drop constraint FK_ex1oknil4le2tootduvjnllp6
+09 dic 2015 11:41:54,113 ERROR ~ Tabla "POST_TAG" no encontrada
+Table "POST_TAG" not found; SQL statement:
+alter table Post_Tag drop constraint FK_ex1oknil4le2tootduvjnllp6 [42102-176]
+09 dic 2015 11:41:55,140 INFO  ~ Application 'Yet Another Blog Engine' is now started !
+09 dic 2015 11:42:13,058 WARN  ~ [DEPRECATION] Encountered positional parameter near line 1, column 70.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
